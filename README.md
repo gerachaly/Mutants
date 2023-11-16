@@ -12,11 +12,11 @@ El proyecto se basa en el reclutamiento de Mutantes para la pelea contra los X-M
 
 Primero se le pide al usuario que siga unos pasos para ingresar su secuencia de ADN, verificando que ingrese 6 digitos y que no ingrese numeros.
 
-'''
+```
 while len(SecuenciaADN) < 6:
     print("Secuencia {}: ".format(len(SecuenciaADN)+1), end=" ")
     entrada = input()
     # ... verificadores
 
-'''
-dsa
+```
+ Luego
