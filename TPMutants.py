@@ -17,3 +17,9 @@ while len(SecuenciaADN) < 6:
         SecuenciaADN.append(list(entrada.upper()))
     else:
         print("La secuencia solo puede contener las letras (A, T, C, G).")
+
+def valida_letras(entrada, letras):
+    for car in entrada:
+        if car not in letras:  ## Funcion que valida si la secuencia contiene las letras A,T,C,G
+            return False       ## si contiene otras letras devuelve falso.
+    return True
