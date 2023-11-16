@@ -83,5 +83,6 @@ Luego por consola accedemos a el
 ```
 cd Mutants
 ```
-Luego ejecutamos el archivo python TPMutants.py
+Luego ejecutamos el archivo python TPMutants.py  
+
 Y hacerle caso a las consignas del codigo
